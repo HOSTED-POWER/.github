@@ -4,7 +4,7 @@
 
 **Your business runs on apps. We keep them running.**
 
-Managed European cloud for Magento, Shopware, Odoo and SaaS, built on our own platform, [TurboStack](https://www.hosted-power.com/en/platform/turbostack-what-turbostack).
+Managed European cloud for Magento, Shopware, Odoo and SaaS, built on our own platform, [TurboStack](https://www.hosted-power.com/en/platform/turbostack-features).
 
 [Website](https://www.hosted-power.com) · [TurboStack docs](https://docs.turbostack.app) · [LinkedIn](https://www.linkedin.com/company/hosted-power/) · [hello@hosted-power.com](mailto:hello@hosted-power.com)
 
