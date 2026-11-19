@@ -19,7 +19,8 @@ When five critical NGINX vulnerabilities (nginx2root, CVE-2026-123007 and relate
 **[nginx2root-patches](https://github.com/HOSTED-POWER/nginx2root-patches)** covers:
 
 - Debian 8 to 13, CentOS 7 (EPEL) and CentOS 8 (AppStream 1.14 to 1.20)
-- RHEL 9, Rocky Linux 9 and Oracle Linux 9 (base 1.20 and AppStream 1.22, 1.24, 1.26), AlmaLinux 9's retired 1.22 stream, and Oracle Linux 10
+- RHEL 8 and Rocky Linux 8 (AppStream 1.24), plus RHEL 9, Rocky Linux 9 and Oracle Linux 9 (base 1.20 and AppStream 1.22, 1.24, 1.26)
+- RHEL 10, Rocky Linux 10 and Oracle Linux 10, plus AlmaLinux 9's retired 1.22 stream
 - 12 CVEs fixed, every one named in the package changelog; HTTP/2 stays on
 - Same package names, modules and configuration, and the official update takes over automatically
 - Covered by Dutch IT Leaders and Born's Tech and Windows World (DE), referenced on Defensia's CVE pages
