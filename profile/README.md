@@ -25,13 +25,15 @@ When five critical NGINX vulnerabilities (nginx2root, CVE-2026-123007 and relate
 - Same package names, modules and configuration, and the official update takes over automatically
 - Covered by Dutch IT Leaders and Born's Tech and Windows World (DE), referenced on Defensia's CVE pages
 
-> Switching HTTP/2 off is not a fix: it blocks only 2 of the 5 nginx2root vulnerabilities.
+> Switching HTTP/2 off is not a fix: it blocks only 2 of the 12 vulnerabilities these packages fix.
 
 ---
 
 ### 🛡️ php2shell: ready before PHP was
 
 When two critical PHP vulnerabilities leaked in October 2026, we built and shipped protection **hours before PHP's official fix**, rolled it out across our platform without downtime, and open-sourced it.
+
+**19 November 2026:** PHP fixed seven critical bugs, but only for 8.2 to 8.5. **v3.3.1 closes all seven on PHP 5.4 to 8.5, including end-of-life 8.1, 8.0 and 7.x**, without rebuilding PHP.
 
 **[php_uploadprogress_guard](https://github.com/HOSTED-POWER/php_uploadprogress_guard)** applies the official fix to an unpatched PHP without rebuilding it, from PHP 5.4 to 8.5, on Linux (x86_64 and ARM) and Windows. Since v3.2 it also covers two problems PHP itself has not shipped fixes for yet, on patched PHP too.
 
